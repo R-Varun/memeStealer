@@ -119,8 +119,8 @@ def stealNthPost(pageID, n, giveCredit = False):
         print("no picture")
     return {"message" : message, "picture": picture}
 
-
-postOnPage(gtPage, stealFirstPost(berkeleyPage, True))
+#usage
+#postOnPage(gtPage, stealFirstPost(berkeleyPage, True))
 
 
 
